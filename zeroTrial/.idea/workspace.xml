@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a21f664e-ee2c-4095-8615-96ce6907e84a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W7SJjYJWZXAaQW1hdWZzIc8wwZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/guide" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FSD/zMQ" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.taskevent">
+    <configuration name="Client" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mqChat.Client" />
+      <module name="zeroTrial" />
+      <option name="PROGRAM_PARAMETERS" value="12345" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mqChat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PubSubClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide.PubSubClient" />
+      <module name="zeroTrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guide.push_pull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mqChat.Server" />
+      <module name="zeroTrial" />
+      <option name="PROGRAM_PARAMETERS" value="12345 12346" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mqChat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="taskevent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide.push_pull.taskevent" />
+      <module name="zeroTrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guide.push_pull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tasksink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide.push_pull.tasksink" />
+      <module name="zeroTrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guide.push_pull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="taskwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide.push_pull.taskwork" />
+      <module name="zeroTrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guide.push_pull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Multirun" factoryName="Multirun" singleton="false" separateTabs="true" startOneByOne="false" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="zeroTesteServer" type="Application" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.PubSubClient" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.tasksink" />
+      <item itemvalue="Application.taskwork" />
+      <item itemvalue="Application.taskevent" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.taskevent" />
+        <item itemvalue="Application.tasksink" />
+        <item itemvalue="Application.taskwork" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.PubSubClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a21f664e-ee2c-4095-8615-96ce6907e84a" name="Default Changelist" comment="" />
+      <created>1578499069855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578499069855</updated>
+      <workItem from="1578499076901" duration="1393000" />
+      <workItem from="1578501108600" duration="287000" />
+      <workItem from="1578501586531" duration="5221000" />
+      <workItem from="1578583701251" duration="7696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="57" y="67" width="671" height="659" key="#Client" timestamp="1578585258912">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="57" y="67" width="671" height="659" key="#Client/57.27.1309.741@57.27.1309.741" timestamp="1578585258912" />
+    <state x="306" y="58" width="847" height="677" key="#Project_Structure" timestamp="1578499284627">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="306" y="58" width="847" height="677" key="#Project_Structure/57.27.1309.741@57.27.1309.741" timestamp="1578499284627" />
+    <state x="771" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578589476310">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="771" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/57.27.1309.741@57.27.1309.741" timestamp="1578589476310" />
+    <state x="169" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578586126377">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="169" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/57.27.1309.741@57.27.1309.741" timestamp="1578586126377" />
+    <state x="443" y="182" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578501865912">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="443" y="182" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/57.27.1309.741@57.27.1309.741" timestamp="1578501865912" />
+    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578502397225">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl/57.27.1309.741@57.27.1309.741" timestamp="1578502397225" />
+    <state width="609" height="175" key="GridCell.Tab.0.bottom" timestamp="1578612497167">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="609" height="175" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1578612497167" />
+    <state width="609" height="175" key="GridCell.Tab.0.center" timestamp="1578612497167">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="609" height="175" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1578612497167" />
+    <state width="609" height="175" key="GridCell.Tab.0.left" timestamp="1578612497166">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="609" height="175" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1578612497166" />
+    <state width="609" height="175" key="GridCell.Tab.0.right" timestamp="1578612497167">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="609" height="175" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1578612497167" />
+    <state x="200" y="31" key="SettingsEditor" timestamp="1578501419848">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="200" y="31" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1578501419848" />
+    <state x="810" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1578589000879">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="810" y="176" width="446" height="440" key="chooseDestDirectoryDialog/57.27.1309.741@57.27.1309.741" timestamp="1578589000879" />
+    <state x="367" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1578583782673">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="367" y="224" key="com.intellij.ide.util.TipDialog/57.27.1309.741@57.27.1309.741" timestamp="1578583782673" />
+    <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578588938460">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="374" y="89" width="672" height="678" key="search.everywhere.popup/57.27.1309.741@57.27.1309.741" timestamp="1578588938460" />
+  </component>
+</project>
