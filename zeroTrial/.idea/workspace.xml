@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a21f664e-ee2c-4095-8615-96ce6907e84a" name="Default Changelist" comment="" />
+    <list default="true" id="a21f664e-ee2c-4095-8615-96ce6907e84a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mqChat/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mqChat/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mqChat/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mqChat/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/zeroTrial.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guide/pub_sub/PubSubClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guide/pub_sub/PubSubClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guide/pub_sub/PubSubServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guide/pub_sub/PubSubServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guide/push_pull/taskevent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guide/push_pull/taskevent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guide/push_pull/tasksink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guide/push_pull/tasksink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guide/push_pull/taskwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guide/push_pull/taskwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mqChat/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mqChat/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mqChat/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mqChat/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pub_sub_broker/Broker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pub_sub_broker/Broker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zeroTesteClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zeroTesteClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zeroTesteServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zeroTesteServer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -36,6 +56,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1W7SJjYJWZXAaQW1hdWZzIc8wwZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,16 +64,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/guide" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FSD/zMQ" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Application.taskevent">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mqChat.Client" />
       <module name="zeroTrial" />
@@ -138,8 +160,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PubSubClient" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.PubSubClient" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.tasksink" />
       <item itemvalue="Application.taskwork" />
@@ -147,10 +169,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.taskevent" />
         <item itemvalue="Application.tasksink" />
         <item itemvalue="Application.taskwork" />
-        <item itemvalue="Application.Server" />
         <item itemvalue="Application.PubSubClient" />
       </list>
     </recent_temporary>
@@ -181,6 +203,7 @@
       <workItem from="1578501108600" duration="287000" />
       <workItem from="1578501586531" duration="5221000" />
       <workItem from="1578583701251" duration="7696000" />
+      <workItem from="1578613026995" duration="4073000" />
     </task>
     <servers />
   </component>
@@ -192,9 +215,10 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="57" y="67" width="671" height="659" key="#Client/57.27.1309.741@57.27.1309.741" timestamp="1578585258912" />
-    <state x="306" y="58" width="847" height="677" key="#Project_Structure" timestamp="1578499284627">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="390" y="47" width="847" height="677" key="#Project_Structure" timestamp="1578613250102">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state x="390" y="47" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1578613250102" />
     <state x="306" y="58" width="847" height="677" key="#Project_Structure/57.27.1309.741@57.27.1309.741" timestamp="1578499284627" />
     <state x="771" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578589476310">
       <screen x="57" y="27" width="1309" height="741" />
@@ -212,25 +236,30 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl/57.27.1309.741@57.27.1309.741" timestamp="1578502397225" />
-    <state width="609" height="175" key="GridCell.Tab.0.bottom" timestamp="1578612497167">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1578617711258">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578617711258" />
     <state width="609" height="175" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1578612497167" />
-    <state width="609" height="175" key="GridCell.Tab.0.center" timestamp="1578612497167">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1578617711258">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578617711258" />
     <state width="609" height="175" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1578612497167" />
-    <state width="609" height="175" key="GridCell.Tab.0.left" timestamp="1578612497166">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1578617711258">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578617711258" />
     <state width="609" height="175" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1578612497166" />
-    <state width="609" height="175" key="GridCell.Tab.0.right" timestamp="1578612497167">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1578617711258">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578617711258" />
     <state width="609" height="175" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1578612497167" />
-    <state x="200" y="31" key="SettingsEditor" timestamp="1578501419848">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="224" y="6" key="SettingsEditor" timestamp="1578613357789">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state x="224" y="6" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1578613357789" />
     <state x="200" y="31" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1578501419848" />
     <state x="810" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1578589000879">
       <screen x="57" y="27" width="1309" height="741" />
@@ -240,9 +269,10 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="367" y="224" key="com.intellij.ide.util.TipDialog/57.27.1309.741@57.27.1309.741" timestamp="1578583782673" />
-    <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578588938460">
-      <screen x="57" y="27" width="1309" height="741" />
+    <state x="496" y="93" width="1052" height="1018" key="search.everywhere.popup" timestamp="1578614111913">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state x="496" y="93" width="1052" height="1018" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1578614111913" />
     <state x="374" y="89" width="672" height="678" key="search.everywhere.popup/57.27.1309.741@57.27.1309.741" timestamp="1578588938460" />
   </component>
 </project>

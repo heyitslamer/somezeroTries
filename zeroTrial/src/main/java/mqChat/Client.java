@@ -3,25 +3,56 @@ package mqChat;
 import org.zeromq.SocketType;
 import org.zeromq.ZContext;
 import org.zeromq.ZMQ;
+import org.zeromq.ZSocket;
 
+import java.time.ZonedDateTime;
 import java.util.Scanner;
+
+class ClientThreadWrite extends Thread {
+
+    ZMQ.Socket push;
+
+    ClientThreadWrite(ZContext context, int push) {
+        this.push = context.createSocket(SocketType.PUSH);
+        this.push.connect("tcp://localhost:"+push);
+    }
+
+    public void run() {
+
+        Scanner sc = new Scanner(System.in);
+
+        while(!Thread.currentThread().isInterrupted()) {
+            String msg = sc.nextLine().trim();
+            push.send(msg, 0);
+        }
+    }
+}
+
+class ClientThreadRead extends Thread {
+
+    ZMQ.Socket sub;
+
+    ClientThreadRead(ZContext context, int sub) {
+        this.sub = context.createSocket(SocketType.SUB);
+        this.sub.connect("tcp://localhost:"+sub);
+        this.sub.subscribe("".getBytes());
+    }
+
+    public void run() {
+
+        Scanner sc = new Scanner(System.in);
+
+        while(!Thread.currentThread().isInterrupted()) {
+            String msg = sub.recvStr(0);
+            System.out.println(msg);
+        }
+    }
+}
 
 public class Client {
     public static void main(String[] args) {
-        try(ZContext context = new ZContext(1)) {
-            ZMQ.Socket socket = context.createSocket(SocketType.REQ);
-            socket.connect("tcp://localhost:" + args[0]);
-
-            while(true) {
-                Scanner s = new Scanner(System.in);
-                String srt = s.nextLine();
-                if(srt == null || srt.equals(""))
-                    break;
-                socket.send(srt);
-                byte[] b = socket.recv();
-                System.out.println(new String(b, ZMQ.CHARSET));
-            }
-            socket.close();
-        }
+        ZContext context = new ZContext(1);
+        new ClientThreadRead(context, 5000).start();
+        new ClientThreadWrite(context, 5001).start();
     }
 }
